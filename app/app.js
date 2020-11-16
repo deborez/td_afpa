@@ -9,7 +9,7 @@ class App {
       App.browse();
 
       $(".nav-link").on("click", (e) => {
-        let button = $(e.target).closest(".navbar").find("navbar-toggler").not(".collapsed");
+        let button = $(e.target).closest(".navbar").find(".navbar-toggler").not(".collapsed");
         button ? button.click() : null;
       })
     })
